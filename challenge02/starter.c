@@ -1,18 +1,18 @@
 #include <stdio.h>
 
-int suma(int a, int b)
+int suma_start(int a, int b)
 {
     return a + b;
 }
-int resta(int a, int b)
+int resta_start(int a, int b)
 {
     return a - b;
 }
-int multiplicacion(int a, int b)
+int multiplicacion_start(int a, int b)
 {
     return a * b;
 }
-int division(int a, int b){
+int division_start(int a, int b){
     if (b != 0) {
         return a / b;
     } else
@@ -23,7 +23,3 @@ int division(int a, int b){
     
 }
 
-int main() {
-    printf("Calculadora inicializada.\n");
-    return 0;
-}

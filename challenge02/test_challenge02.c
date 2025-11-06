@@ -1,3 +1,6 @@
+#include <assert.h>
+#include <stdio.h>
+
 int suma(int a, int b) {
     return a + b;
 }
@@ -9,14 +12,14 @@ int multiplicacion(int a, int b) {
 }
 int division(int a, int b) {
     if (b == 0) {
+        printf("Error: Division por cero.\n");
         return 0; // Manejo simple de división por cero
     }
     return a / b;
 }
 
 //testeo de la funcion suma
-#include <assert.h>
-#include <stdio.h>
+
 void test_de_todo() {
     assert(suma(2, 3) == 5);
     assert(suma(-1, 1) == 0);
