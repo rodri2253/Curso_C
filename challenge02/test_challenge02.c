@@ -12,7 +12,11 @@ int multiplicacion(int a, int b) {
 }
 int division(int a, int b) {
     if (b == 0) {
+<<<<<<< HEAD
         printf("Error: Division por cero.\n");
+=======
+        printf("division entre 0\n"); // Mensaje requerido al dividir por cero
+>>>>>>> 0a7790077eb5862ed31b44f8e5c921765b4ebeee
         return 0; // Manejo simple de división por cero
     }
     return a / b;
@@ -38,6 +42,7 @@ void test_de_todo() {
     assert(division(6, 3) == 2);
     assert(division(5, 0) == 0); // División por cero
     assert(division(-6, -3) == 2);
+    assert(division(-6, 3) == -2);
 
 
     printf("TODO OK\n");
