@@ -1,8 +1,5 @@
-#include <stdio.h>
+#include "starter.h"
 
-int suma(int a, int b);
-
-int main() {
-    printf("Pipeline local simulado.\n");
-    return 0;
+int suma(int a, int b) {
+    return a + b;
 }
