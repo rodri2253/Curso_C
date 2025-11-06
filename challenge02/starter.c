@@ -22,8 +22,3 @@ int division_start(int a, int b){
     }
     
 }
-
-<<<<<<< HEAD
-=======
-
->>>>>>> 0a7790077eb5862ed31b44f8e5c921765b4ebeee
